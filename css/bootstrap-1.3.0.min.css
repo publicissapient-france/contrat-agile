@@ -228,7 +228,8 @@ a:hover {
 }
 
 .span2 {
-    width: 100px;
+    width: 100%;
+    font-size:11px;
 }
 
 .span3 {
@@ -364,7 +365,7 @@ a:hover {
 }
 
 .offset12 {
-    margin-left: 740px;
+    margin-left: auto;
 }
 
 .span-one-third {
@@ -1417,14 +1418,14 @@ table .headerSortUp.purple, table .headerSortDown.purple {
     background-color: #222;
     background-color: #222222;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#6c276a), to(#653a71));
-    background-image: -moz-linear-gradient(top, #6c276a, #653a71);
-    background-image: -ms-linear-gradient(top, #6c276a, #653a71);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6c276a), color-stop(100%, #653a71));
-    background-image: -webkit-linear-gradient(top, #6c276a, #653a71);
-    background-image: -o-linear-gradient(top, #6c276a, #653a71);
-    background-image: linear-gradient(top, #6c276a, #653a71);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#6c276a', endColorstr = '#653a71', GradientType = 0);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#FE414D), to(#FE414D));
+    background-image: -moz-linear-gradient(top, #FE414D, #FE414D);
+    background-image: -ms-linear-gradient(top, #FE414D, #FE414D);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FE414D), color-stop(100%, #FE414D));
+    background-image: -webkit-linear-gradient(top, #FE414D, #FE414D);
+    background-image: -o-linear-gradient(top, #FE414D, #FE414D);
+    background-image: linear-gradient(top, #FE414D, #FE414D);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FE414D', endColorstr = '#FE414D', GradientType = 0);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
@@ -1491,8 +1492,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 }
 
 .topbar div>ul .menu-dropdown li a, .nav .menu-dropdown li a, .topbar div>ul .dropdown-menu li a, .nav .dropdown-menu li a {
-    color: #999;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
 
 .topbar div>ul .menu-dropdown li a:hover, .nav .menu-dropdown li a:hover, .topbar div>ul .dropdown-menu li a:hover, .nav .dropdown-menu li a:hover {
@@ -1514,8 +1514,8 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 }
 
 .topbar div>ul .menu-dropdown .divider, .nav .menu-dropdown .divider, .topbar div>ul .dropdown-menu .divider, .nav .dropdown-menu .divider {
-    background-color: #222;
-    border-color: #444;
+    background-color: transparent;
+    border-color: #fff;
 }
 
 .topbar ul .menu-dropdown li a, .topbar ul .dropdown-menu li a {
@@ -1593,8 +1593,7 @@ a.menu:after, .dropdown-toggle:after {
     clear: both;
     font-weight: normal;
     line-height: 18px;
-    color: #808080;
-    text-shadow: 0 1px 0 #ffffff;
+    color: #ffffff;
 }
 
 .topbar .dropdown-menu a:hover, .dropdown-menu a:hover {
