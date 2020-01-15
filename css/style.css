@@ -23,12 +23,12 @@ a:hover, a:active {
 }
 
 h3 {
-    color: #6c276a;
+    color: #FE414D;
 }
 
 hr {
     color: #6c276a;
-    background-color: #6c276a;
+    background-color: #FE414D;
     height: 1px;
     border: 0;
 }
@@ -49,11 +49,11 @@ p {
     background-color: #A176A0;
     font-size: 120%;
     padding: 20px;
-    background-image: -webkit-linear-gradient(#6c276a, #A176A0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#6c276a), to(#A176A0));
-    background-image: -moz-linear-gradient(#6c276a, #A176A0);
-    background-image: -o-linear-gradient(top, #6c276a, #A176A0);
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#6c276a), to(#A176A0));
+    background-image: -webkit-linear-gradient(#FE414D, #A176A0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FE414D), to(#A176A0));
+    background-image: -moz-linear-gradient(#FE414D, #A176A0);
+    background-image: -o-linear-gradient(top, #FE414D, #A176A0);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#FE414D), to(#A176A0));
     background-repeat: repeat no-repeat;
     border-bottom-color: rgba(0, 0, 0, 0.246094);
     border-left-color: rgba(0, 0, 0, 0.0976562);
@@ -72,7 +72,7 @@ p {
 }
 
 .topbar div > ul .menu-dropdown, .nav .menu-dropdown, .topbar div > ul .dropdown-menu, .nav .dropdown-menu {
-    background-color: #6c276a;
+    background-color: #FE414D;
 }
 
 .page-header blockquote p {
